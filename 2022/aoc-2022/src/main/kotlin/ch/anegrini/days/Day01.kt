@@ -25,7 +25,9 @@ object Day01: Day(1, "Calories Counting"){
     }
 
     override fun partTwo() {
-        TODO("Not yet implemented")
+        logger.info { "Starting challenge ${this.description} - advent day ${completeDay}!" }
+        val topThreeCaloriesSum = caloriesList.sortedDescending().take(3).sum()
+        logger.info { "Solution for challenge ${this.description} is $topThreeCaloriesSum" }
     }
 
 }

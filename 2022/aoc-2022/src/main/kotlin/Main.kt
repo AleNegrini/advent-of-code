@@ -1,5 +1,6 @@
 import ch.anegrini.days.Day01
 
-fun main(args: Array<String>) {
+fun main() {
     Day01.partOne()
+    Day01.partTwo()
 }
